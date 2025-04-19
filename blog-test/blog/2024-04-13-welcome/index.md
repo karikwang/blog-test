@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: 欢迎来到我的博客
-authors: [你的名字]
+authors: [karikwang]
 tags: [欢迎, 介绍]
 ---
 
@@ -24,7 +24,7 @@ tags: [欢迎, 介绍]
 
 如果你有任何问题或建议，欢迎通过以下方式联系我：
 
-- GitHub: [你的 GitHub 用户名](https://github.com/你的GitHub用户名)
+- GitHub: [Karik Wang](https://github.com/karikwang)
 - 邮箱: 你的邮箱地址
 
 感谢你的访问！
