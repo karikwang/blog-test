@@ -15,14 +15,14 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://你的GitHub用户名.github.io",
+  url: "https://karikwang.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/blog-test/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "你的GitHub用户名", // Usually your GitHub org/user name.
+  organizationName: "karikwang", // Usually your GitHub org/user name.
   projectName: "blog-test", // Usually your repo name.
 
   onBrokenLinks: "throw",
