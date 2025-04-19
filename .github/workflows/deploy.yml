@@ -45,13 +45,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+        run: cd blog-test && ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Docusaurus
-        run: ${{ steps.detect-package-manager.outputs.runner }} docusaurus build
+        run: cd blog-test && ${{ steps.detect-package-manager.outputs.runner }} docusaurus build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build
+          path: blog-test/build
 
   deploy:
     environment:
